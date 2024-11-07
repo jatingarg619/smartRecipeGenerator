@@ -5,7 +5,7 @@ async function fetchSubstitution(ingredient, diet) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer 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`
+        'Authorization': `Bearer Your_OpenAI_API_Key`
       },
       body: JSON.stringify({
         model: "gpt-4",
