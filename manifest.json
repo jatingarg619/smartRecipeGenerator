@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Smart Recipe Generator",
+    "version": "1.0",
+    "description": "Generate recipes for different serving sizes or dietary needs.",
+    "permissions": ["activeTab", "storage", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+   
+}
